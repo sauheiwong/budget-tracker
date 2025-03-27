@@ -1,0 +1,52 @@
+/* 藍色系：
+
+深藍色（穩重、專業）：
+RGB：(0, 0, 139)
+HEX：#00008B
+淺藍色（平靜、信任）：
+RGB：(173, 216, 230)
+HEX：#ADD8E6
+一般的藍色：
+RGB: (0, 0, 255)
+HEX: #0000FF
+灰色系：
+
+深灰色（現代、簡潔）：
+RGB：(105, 105, 105)
+HEX: #696969
+淺灰色（中性、背景色）：
+RGB：(211, 211, 211)
+HEX: #D3D3D3
+一般的灰色：
+RGB: (128, 128, 128)
+HEX: #808080
+綠色系：
+
+深綠色（成長、繁榮）：
+RGB：(0, 100, 0)
+HEX: #006400
+淺綠色（積極、鼓勵）：
+RGB: (144, 238, 144)
+HEX: #90EE90
+一般的綠色：
+RGB: (0, 255, 0)
+HEX: #00FF00 */
+
+:root {
+  --highligh1-color: rgb(0, 0, 139);
+  --highligh2-color: rgb(173, 216, 230);
+  --background-color: rgb(211, 211, 211);
+  --primary-color: rgb(105, 105, 105);
+  --secondary-color: rgb(0, 100, 0);
+  --btn-border-r: 15px;
+  --selected-color: rgb(144, 238, 144);
+}
+
+body {
+  background-color: var(--background-color);
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  gap: 2.5vh;
+}
